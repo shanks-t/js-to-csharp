@@ -26,6 +26,9 @@ namespace EnemiesList
 
         public static List<Enemy> GetEnemies()
         {
+            // Make a list of Enemy objects
+            //  How would you create a collection of enemy objects in JavaScript?
+
             List<Enemy> enemies = new List<Enemy> {
                 new Enemy {
                     FirstName = "Joshua",
@@ -71,6 +74,10 @@ namespace EnemiesList
         }
     }
 
+    // Classes are how we define objects in C#. They help us ensure that our objects always have
+    //  the correct properties and methods.
+    // JavaScript is more flexible (but also more error-prone), so you will not need to translate
+    //  this class into JavaScript
     public class Enemy
     {
         public string FirstName { get; set; }
