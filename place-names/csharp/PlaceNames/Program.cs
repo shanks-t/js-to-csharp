@@ -21,7 +21,7 @@ namespace PlaceNames
             Console.WriteLine("All Place Names");
 
             // Iterate over each "name" in the "names" list
-            foreach (var name in names)
+            foreach (string name in names)
             {
                 Console.WriteLine(name);
             }
@@ -33,7 +33,7 @@ namespace PlaceNames
             List<string> theNames = names.Where(n => n.StartsWith("The")).ToList();
 
             Console.WriteLine("'The' Place Names");
-            foreach (var name in theNames)
+            foreach (string name in theNames)
             {
                 Console.WriteLine(name);
             }
