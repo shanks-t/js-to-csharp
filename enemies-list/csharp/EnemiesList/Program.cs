@@ -7,12 +7,6 @@ namespace EnemiesList
     {
         static void Main(string[] args)
         {
-            Program thisProgram = new Program();
-            thisProgram.Run();
-        }
-
-        public void Run()
-        {
             Console.WriteLine("My Enemies List!");
             Console.WriteLine("----------------");
             List<Enemy> enemies = GetEnemies();
@@ -30,7 +24,7 @@ namespace EnemiesList
             }
         }
 
-        public List<Enemy> GetEnemies()
+        public static List<Enemy> GetEnemies()
         {
             List<Enemy> enemies = new List<Enemy> {
                 new Enemy {
