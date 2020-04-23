@@ -8,7 +8,7 @@ It is often said that learning a second programming language is easier because y
 
 ## `if` statement
 
-#### C
+#### C#
 
 ```cs
 int numHats = 50;
@@ -41,7 +41,7 @@ if (numHats > 10) {
 
 ## `for` loop
 
-#### C
+#### C#
 
 ```cs
 for (int i=0; i<20; i++)
@@ -60,7 +60,7 @@ for (let i = 0; i < 20; i++) {
 
 ## `foreach` loop
 
-#### C
+#### C#
 
 ```cs
 List<string> foods = new List<string>() {
@@ -83,7 +83,7 @@ for (let food of foods) {
 
 ## `while` loop
 
-#### C
+#### C#
 
 ```cs
 while (true)
@@ -102,7 +102,7 @@ while (true) {
 
 ## Classes and Objects
 
-#### C
+#### C#
 
 ##### Declare a `Person` class
 
@@ -181,7 +181,7 @@ lulu.addHobby("World domination");
 
 ## Lists and Arrays
 
-#### C
+#### C#
 
 ```cs
 Person ronny = new Person("Ronny", new DateTime(2000, 4, 1), new List<string> { "wrastlin'"} );
@@ -212,7 +212,7 @@ people.push(june);
 
 ## Dictionaries
 
-#### C
+#### C#
 
 ```cs
 Dictionary<string, int> bowlingScores = new Dictionary<string, int>() {
@@ -238,7 +238,7 @@ console.log(bowlingScores["Bubba"]);
 
 ## Variables
 
-#### C
+#### C#
 
 ```cs
 int theAnswer = 42;
@@ -278,7 +278,7 @@ const nicknames = {
 
 ## `try` / `catch`
 
-#### C
+#### C#
 
 ```cs
 try
