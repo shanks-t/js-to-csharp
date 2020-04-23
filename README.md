@@ -24,3 +24,7 @@ Translate the C# code found in the exercise below into JavaScript code.
 ### JavaScript to C#
 
 Translate the JavaScript code found in the exercise below into C# code.
+
+## Resources
+
+[C# vs JavaScript Cheatsheet](./CSHARP_JAVASCRIPT_COMPARISON.md)
