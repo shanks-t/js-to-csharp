@@ -1,4 +1,4 @@
-# From JavaScript To C
+# From JavaScript To C#
 
 Learning your first programming language is hard. It's hard because you're not only learning a language, but you're also learning _how to program_.
 
