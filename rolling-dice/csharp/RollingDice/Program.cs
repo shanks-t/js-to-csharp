@@ -7,6 +7,7 @@ namespace RollingDice
         static void Main(string[] args)
         {
             Console.WriteLine("Let's roll some dice, baby!");
+            Console.WriteLine("---------------------------");
 
             for (int i = 0; i < 10; i++)
             {
@@ -25,11 +26,8 @@ namespace RollingDice
 
         static Die Roll()
         {
-            int value = new Random().Next(1, 6);
-            Die die = new Die()
-            {
-                Value = value
-            };
+            int dieValue = new Random().Next(1, 6);
+            Die die = new Die(dieValue);
             return die;
         }
     }
@@ -37,10 +35,18 @@ namespace RollingDice
     public class Die
     {
         public int Value { get; set; }
+
+        public Die(int value)
+        {
+            this.Value = value;
+        }
+
+        // This method is automatically called when we create the "message" variable above
+        // By the way, a JavaScript object can have a toString() method too...
         public override string ToString()
         {
             string dieString = "Unknown";
-            switch (Value)
+            switch (this.Value)
             {
                 case 1:
                     dieString = "\u2680";
