@@ -25,6 +25,18 @@ Translate the C# code found in the exercise below into JavaScript code.
 
 Translate the JavaScript code found in the exercise below into C# code.
 
+1. 
+1. 
+1. 
+1. 
+
+> **NOTE:** You will need to create a new project for each program.
+
+```sh
+cd csharp
+dotnet new console -o <New Project Name>
+```
+
 ## Resources
 
 [C# vs JavaScript Cheatsheet](./CSHARP_JAVASCRIPT_COMPARISON.md)
