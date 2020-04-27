@@ -16,10 +16,10 @@ The individual exercises are organized by folder _(see links below)_. Each exerc
 
 Translate the C# code found in the exercise below into JavaScript code.
 
-1. [Place Names](./place-names/README.md)
-1. [Enemies List](./enemies-list/README.md)
-1. [Rolling Dice](./rolling-dice/README.md)
-1. [Grimoire](./grimoire/README.md)
+1. [Place Names](./place-names/)
+1. [Enemies List](./enemies-list/)
+1. [Rolling Dice](./rolling-dice/)
+1. [Grimoire](./grimoire/)
 
 ### JavaScript to C#
 
