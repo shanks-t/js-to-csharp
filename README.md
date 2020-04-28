@@ -14,7 +14,7 @@ The individual exercises are organized by folder _(see links below)_. Each exerc
 
 ### C# to JavaScript
 
-Translate the C# code found in the exercise below into JavaScript code.
+Translate the C# code found in the exercises below into JavaScript code.
 
 1. [Place Names](./place-names/)
 1. [Enemies List](./enemies-list/)
@@ -23,7 +23,7 @@ Translate the C# code found in the exercise below into JavaScript code.
 
 ### JavaScript to C#
 
-Translate the JavaScript code found in the exercise below into C# code.
+Translate the JavaScript code found in the exercises below into C# code.
 
 1. [Wish List](./wish-list/)
 1. [Insulter](./insulter)
