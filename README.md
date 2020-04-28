@@ -25,10 +25,11 @@ Translate the C# code found in the exercise below into JavaScript code.
 
 Translate the JavaScript code found in the exercise below into C# code.
 
-1. 
-1. 
-1. 
-1. 
+1. [Wish List](./wish-list/)
+1. [Insulter](./insulter)
+1. [Fizzbuzz](./fizzbuzz)
+1. [Dinner Party](./dinner-party)
+1. [Word Frequency](./word-frequency)
 
 > **NOTE:** You will need to create a new project for each program.
 
