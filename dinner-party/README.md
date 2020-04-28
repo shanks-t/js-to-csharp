@@ -4,6 +4,4 @@ An app for creating the seating arrangements of historical characters at a dinne
 
 ## Rules for the seating arrangements
 
-Since we want everyone to have a nice, comfortable evening, we will group guests based on their birth century. For example everyone born in the 1700s will be seated at the same table.
-
-However, we don't want anyone sitting alone, so once all the tables have been assigned, guests who are alone at a table should be reassigned to the same table. For example, If there's only one person from the 200s and one person from the 1800s, they should be reassigned to the same table.
+Since we want everyone to have an interesting evening, we want to diversify the guests as much as possible. To that end, we don't want people with the same occupation to sit at the same table. Your task is to divide the guests into different tables accordingly.
