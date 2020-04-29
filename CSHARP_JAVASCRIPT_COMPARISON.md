@@ -15,7 +15,7 @@ int numHats = 50;
 if (numHats > 10)
 {
     Console.WriteLine("Why do you have so many hats?");
-g}
+}
 else if (numHats <= 10 && numHats >= 2)
 {
     Console.WriteLine("You have a reasonable number of hats.");
