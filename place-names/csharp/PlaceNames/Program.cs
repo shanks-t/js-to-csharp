@@ -26,6 +26,8 @@ namespace PlaceNames
                 Console.WriteLine(name);
             }
 
+            // When you don't pass an argument to WriteLine, it simply outputs a blank line.
+            //  Here we use that to add a little space around the output.
             Console.WriteLine();
 
             // Filter the list to create a new list that only has 

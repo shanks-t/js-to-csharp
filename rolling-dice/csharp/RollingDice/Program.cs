@@ -32,6 +32,9 @@ namespace RollingDice
         }
     }
 
+    // This class is used to define a "die" object (a single "dice")
+    //  Each die will have a value. This value is the number that the
+    //  die "landed on" when it was rolled.
     public class Die
     {
         public int Value { get; set; }
@@ -46,8 +49,18 @@ namespace RollingDice
         public override string ToString()
         {
             string dieString = "Unknown";
+
+            // This "switch" statement behaves like a series of "if/else if" statements.
+            //  We compare the numeric Value of the current object accross different "cases".
+            //  When we find a matching case we return a string that represents an image of a die
+            // Did you kow that JavaScript also has "switch" statements?
             switch (this.Value)
             {
+                /* "case 1:" is like the following "if" statement
+                if (this.Value == 1) {
+                    dieString = "\u2680";
+                }
+                */
                 case 1:
                     dieString = "\u2680";
                     break;
