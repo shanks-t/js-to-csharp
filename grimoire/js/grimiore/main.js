@@ -1,6 +1,1 @@
-function main() {
-  // Put your code here
-
-}
-
-main();
+// Put your code here
