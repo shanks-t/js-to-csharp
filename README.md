@@ -12,6 +12,10 @@ The individual exercises are organized by folder _(see links below)_. Each exerc
 
 > **NOTE:** It is _very important_ to remember that while there are many language similarities between C# and JavaScript, this is **NOT** a line-for-line translation. In many cases the C# code will look markedly different from the JavaScript code. The goal is for each implementation to have the same **behavior** not the same **code**.
 
+> **NOTE:** It will be easiest to have multiple instances of VS Code open while working on these exercises. For example when working on the `place-names` exercise you should open VS Code from within each of these directories:  
+> * `translate-csharp-js/place-names/csharp/PlaceNames`
+> * `translate-csharp-js/place-names/js/placeNames`
+
 ### C# to JavaScript
 
 Translate the C# code found in the exercises below into JavaScript code.
