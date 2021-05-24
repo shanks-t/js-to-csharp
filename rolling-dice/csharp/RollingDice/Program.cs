@@ -57,26 +57,26 @@ public class Die
         {
             /* "case 1:" is like the following "if" statement
             if (this.Value == 1) {
-                dieString = "\u2680";
+                dieString = "one";
             }
             */
             case 1:
-                dieString = "\u2680"; // These \uXXXX values are fancy unicode characters
+                dieString = "one"; // These \uXXXX values are fancy unicode characters
                 break;
             case 2:
-                dieString = "\u2681";
+                dieString = "two";
                 break;
             case 3:
-                dieString = "\u2682";
+                dieString = "three";
                 break;
             case 4:
-                dieString = "\u2683";
+                dieString = "four";
                 break;
             case 5:
-                dieString = "\u2684";
+                dieString = "five";
                 break;
             case 6:
-                dieString = "\u2685";
+                dieString = "six";
                 break;
         }
 
